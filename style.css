@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center; 
+    font-weight: 600;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    width: 200vh;
+    background-color: rgb(3, 3, 185);
+    height: 6vh;
+    text-align: center;
+    align-items: center;
+    padding: 17px;
+}
+
+nav a {
+    
+    filter: drop-shadow(3px 3px 9px black);
+    color: whitesmoke;
+    margin: 60px;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    height: auto; 
+    
+}
+.decorative-image {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: -20;
+    width: 25px; /* Defina a largura desejada para o span */
+    height: auto; /* Mantenha a altura automática para manter a proporção da imagem */
+}
+
+.decorative-image img {
+    max-width: 80%;
+    height: auto; /* Garante a proporção da imagem */
+    position: relative;
+    left: 0vh;
+}
+.decorative-image2{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: -20;
+    width: 25px; /* Defina a largura desejada para o span */
+    height: auto;
+}
+.decorative-image2 img {
+    max-width: 80%;
+    height: auto; /* Garante a proporção da imagem */
+    position: relative;
+    left: 40vh;
+    transition: 1.2s;
+}
+.decorative-image2 img:hover {
+    scale: 1.2;
+    transition: 1.2s;
+}
+footer{
+    background-color: rgb(3, 3, 185);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    transition: 1.2s ;
+    scale: 1;
+    
+}
+.decorative-image3 img:hover{
+    transform: scale(1.4);
+    transition: 1.2s;
+}
+.decorative-image3{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: -20;
+    width: 25px; /* Defina a largura desejada para o span */
+    height: auto;
+}
+.decorative-image3 img {
+    max-width: 100%;
+    height: auto; /* Garante a proporção da imagem */
+    position: relative;
+    left: 1vh;
+    transition: 1.2s;
+}
+
+div:first-child {
+    width: 100vw;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+div .caixafodase {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    aspect-ratio: 1;
+}
+
+div p.ircaixa {
+    margin-left: 100px;
+}
